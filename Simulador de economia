@@ -1,0 +1,8 @@
+let valorInicial = 50;
+jurosMensal = 0.01;
+let valor = valorInicial;
+
+for (let i = 1; i<=12; i++){
+    valor = (1 + jurosMensal) * valor;
+    console.log(`Mês ${i}: Saldo de R$ ${valor}`)
+}
