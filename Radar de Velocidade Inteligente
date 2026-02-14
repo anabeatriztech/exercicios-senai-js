@@ -1,0 +1,10 @@
+let velocidadeDoCarro = 200
+if(velocidadeDoCarro<80){
+    console.log("Velocidade dentro do limite.")
+    }
+else if (velocidadeDoCarro>=81 && velocidadeDoCarro<=100){
+        console.log("Multa leve: R$130,00")
+    }
+else if (velocidadeDoCarro>100){
+        console.log("Multa grave: R$ 880,00 e apreensão de CNH.")
+    }
