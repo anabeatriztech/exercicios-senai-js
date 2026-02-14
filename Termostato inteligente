@@ -1,0 +1,8 @@
+let temperatura = 20
+while(temperatura<100){
+    temperatura = temperatura + 10
+    console.log(`Temperatura atual: ${temperatura}ºC. Status: Seguro`)
+}
+if(temperatura>=100){
+    console.log(`ALERTA! Superaquecimento! Temperatura em ${temperatura}ºC.`)
+}
