@@ -1,0 +1,10 @@
+let salario = 7200
+prestacaoPretendida = 400
+score = 700
+
+if (prestacaoPretendida < salario*0.3 && score>=700){
+    console.log("Empréstimo aprovado.")
+}
+else{
+    console.log("Empréstimo negado.")
+}
