@@ -1,0 +1,16 @@
+let combustivel = 500
+
+while(combustivel>0){
+    combustivel-=12
+
+    if(combustivel <= 0){
+        combustivel = 0;
+        console.log(`Combustível ${combustivel}.Acabou!`)
+    }
+    else if(combustivel<=100){
+        console.log(`Combustível ${combustivel}. Alerta: Nível Crítico - Abastecer!`)
+    }
+    else{
+        console.log(`Combustível ${combustivel}. Ok.`)
+    }
+}
